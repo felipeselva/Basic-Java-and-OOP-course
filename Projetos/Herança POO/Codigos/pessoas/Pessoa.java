@@ -2,7 +2,7 @@
 package pessoas;
 
 
-public class Pessoa {
+public abstract class Pessoa {
  
  private String nome;
  private int idade;
@@ -10,7 +10,7 @@ public class Pessoa {
 
  
  
-public void FazerAniver () {
+public final void FazerAniver () {
     this.idade++;
 }
 
