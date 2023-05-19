@@ -30,7 +30,7 @@ public class internauta extends Pessoa {
         this.login = login;
     }
 
-    public float getTotAssistido() {
+    public int getTotAssistido() {
         return totAssistido;
     }
 
@@ -69,7 +69,7 @@ public class internauta extends Pessoa {
     }
 
     @Override
-    public float getExperiencia() {
+    public int getExperiencia() {
         return experiencia;
     }
 

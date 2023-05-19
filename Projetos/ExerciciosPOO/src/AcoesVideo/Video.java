@@ -54,8 +54,13 @@ public class Video implements AcoesVideo {
         return avaliaçao;
     }
 
-    public void setAvaliação(int avaliaçao) {
-        this.avaliaçao = avaliaçao;
+    public void setAvaliação(int avaliacao) {
+        int novaava;
+        novaava = (int) ((this.avaliaçao + avaliacao)/this.views);
+        
+        this.avaliaçao = novaava;
+        
+        
     }
 
     public int getCurtidas() {

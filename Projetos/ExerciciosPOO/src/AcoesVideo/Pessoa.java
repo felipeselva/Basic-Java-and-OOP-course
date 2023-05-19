@@ -8,7 +8,7 @@ public abstract class Pessoa {
     protected int idade;
     protected int experiencia;
 
-    public Pessoa(String nome, String sexo, int idade, float experiencia) {
+    public Pessoa(String nome, String sexo, int idade, int experiencia) {
         this.nome = nome;
         this.sexo = sexo;
         this.idade = idade;
@@ -43,7 +43,7 @@ public abstract class Pessoa {
         this.idade = idade;
     }
 
-    public float getExperiencia() {
+    public int getExperiencia() {
         return experiencia;
     }
 

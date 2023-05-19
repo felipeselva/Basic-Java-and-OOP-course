@@ -21,6 +21,15 @@ public class ExerciciosPOO {
          
          System.out.println(i[0].toString());
          
+         Visualizacao vis [] = new Visualizacao[2];
+         vis[0] = new Visualizacao (i[0], v[2]);
+         vis[0].avaliacao();
+         System.out.println(vis[0].toString());
+         vis[1] = new Visualizacao (i[0], v[1]);
+         vis[0].avaliacao(10);
+         
+         System.out.println(i[0].toString());
+         
          
          
          
